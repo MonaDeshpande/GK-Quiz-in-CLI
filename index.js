@@ -4,7 +4,7 @@ console.log(userName + " Welcome to the quiz");
 var score = 0;
 var highScore = [{
   name :"Mona",
-  score :50
+  score :60
 }
 ]
 function play(question, answer) {
@@ -38,6 +38,11 @@ var questions = [{
 },{
   q: "What is national animal of India ",
   ans: "TIGER"
+  
+}
+{
+  q: "When is our independance day? ",
+  ans: "15th August"
   
 }]
 // loop for question
